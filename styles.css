@@ -309,3 +309,67 @@ a {
     font-size: 14px;
     color: #b3b3b3;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header, #explore-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    nav, #explore-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    nav a, #explore-nav a {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .cta-button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .services {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .service {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #explore-feature-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .explore-feature-item {
+        width: 100%;
+    }
+
+    .feature-card {
+        width: 100%;
+    }
+
+    .footer, #explore-footer {
+        text-align: center;
+    }
+
+    .social-links a, #explore-social-links a {
+        margin: 5px;
+    }
+}
